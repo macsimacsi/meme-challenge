@@ -1,0 +1,48 @@
+.container {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meme-box {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meme-text-2 {
+  font-family: Impact, sans-serif;
+  font-size: 24px;
+  margin: 50px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+
+}
+
+.meme-text-1 {
+  font-family: Impact, sans-serif;
+  font-size: 24px;
+  margin: 50px;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+
+body {
+  cursor: url(le_wagon_meme_competition/css/images/pointer_3158.png), auto;
+}
